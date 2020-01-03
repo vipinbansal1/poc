@@ -215,7 +215,7 @@ with tf.compat.v1.Session() as sess:
                     inputGraph,
                     ["features"],
                     ["Angle", "EncoderInput"],#optimizer not considered, size is small.
-                    tf.int32.as_datatype_enum)
+                    tf.float32.as_datatype_enum)
     f = tf.gfile.FastGFile(path+'out/graph/OptimizedGraph.pb', "w")
     f.write(outputGraph.SerializeToString()) 
     
