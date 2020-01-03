@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:/repo/autoencoder/UdacityDataset/dataset/alldata/out/graph/tensorflowModel.ckpt"
+all_model_checkpoint_paths: "D:/repo/autoencoder/UdacityDataset/dataset/alldata/out/graph/tensorflowModel.ckpt"
